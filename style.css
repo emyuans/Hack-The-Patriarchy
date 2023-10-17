@@ -1,0 +1,444 @@
+index.html,
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFC0CB;
+  color: #000;
+  /* text-align: center; */
+  padding: 20px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 4px 20px;
+}
+
+nav a:hover {
+  text-decoration-line: underline;
+}
+
+.container-index {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+body {
+
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #EFE2EE;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #FFC0CB;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF69B4;
+}
+
+.reproductive-container {
+  /* padding-top: 50px; */
+  display: flex;
+  align-items: center;
+  background-image: url("Images/rep_health.jpg");
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+  background-position: 50% 25%;
+  width: 100%;
+  height: 600px;
+}
+
+
+.rep-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 4% auto;
+  justify-content: center;
+}
+
+
+.mental-container {
+  display: flex;
+  align-items: center;
+  /* padding-top: 50px; */
+  background-image: url("Images/mental-health2.png");
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+}
+
+.mental-content {
+  background-color: rgba(255, 255, 255, 0.65);
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 6% auto;
+  position: absoulute;
+  justify-content: center;
+}
+
+/* .mental-subcontent {
+  margin: 20px 30px;
+  text-align: left;
+  border: 5 px;
+  border-color: pink;
+  background-color: pink;
+  border-style: outset;
+  padding-left: 20 px;
+  padding-right: 20 px
+} */
+
+/* 
+.mental-topic-1 {
+  margin: 20px 30px;
+  text-align: left;
+  border: 5 px;
+  border-color: pink;
+  background-color: pink;
+  padding-left: 20 px;
+  padding-right: 20 px
+} */
+
+
+.forum-main {
+  display: flex;
+  align-items: center;
+  background-image: url("Images/forum.png");
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+  background-position: 50% 25%;
+  width: 100%;
+  height: 600px;
+}
+
+.forum-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto auto;
+  position: center;
+  justify-content: center;
+}
+
+.connect-container {
+	display: flex;
+  align-items: center;
+  background-image: url("Images/connect.jpeg");
+  background-color: rgba(0, 0, 0, 1);
+  background-size: cover;
+  background-position: 50% 25%;
+  width: 100%;
+  height: 600px;
+}
+
+.connect-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 90%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: auto auto;
+	postion: center;
+  justify-content: center;
+}
+
+#reproductive-header {
+  background-color: #FFC0CB;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#mental-header {
+  background-color: #FFC0CB;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#forum-header {
+  background-color: #FFC0CB;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#connect-header {
+  background-color: #FFC0CB;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: block;
+  margin: 1% auto;
+  clip-path: circle();
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+}
+
+/* for forum*/
+
+/* Basic styles for post content */ 
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.post .user {
+  font-weight: bold;
+  color: #333;
+}
+
+.post .message {
+  margin-top: 10px;
+}
+
+/*for about us*/
+.team-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.team-member {
+  /*  display: flex; */
+  align-items: center;
+  margin: 10px 150px;
+  text-align: center;
+
+}
+
+.team-member img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Styles for comments */
+.comment {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+}
+
+.comment .user {
+  font-weight: bold;
+  color: #555;
+}
+
+.comment-button {
+  padding: 10px;
+}
+
+.post-container {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.post {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: pink;
+}
+
+.add-comment {
+  padding-top: 20px;
+  padding-bottom: 20 px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*styles for reproductive and mental health topics*/
+.topic {
+  margin: 20px 30px;
+  text-align: justify;
+  border: 5 px;
+  border-color: pink;
+  background-color: pink;
+  border-style: outset;
+  padding: 3% 3%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/*styles for the cards in connect*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  max-width: 1250px;
+  margin: 30px auto;
+  padding: 20px;
+  gap: 20px;
+}
+
+.card-list .card-item {
+  background: #fff;
+  padding: 26px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: border 0.5s ease;
+}
+
+.card-list .card-item:hover {
+  border: 2px solid #000;
+}
+
+.card-list .card-item img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.card-list span {
+  display: inline-block;
+  background: #F7DFF5;
+  margin-top: 32px;
+  padding: 8px 15px;
+  font-size: 0.75rem;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.card-list .about {
+  background-color: #F7DFF5;
+  color: #B22485;
+}
+
+.card-item h3 {
+  color: #000;
+  font-size: 1.438rem;
+  margin-top: 28px;
+  font-weight: 600;
+}
+
+.card-item .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-35deg);
+  height: 40px;
+  width: 40px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-top: 40px;
+  transition: 0.2s ease;
+}
+
+.card-list .card-item:hover .arrow {
+  background: #000;
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .card-list .card-item {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .card-list {
+    margin: 0 auto;
+  }
+}
